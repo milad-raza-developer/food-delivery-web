@@ -9,7 +9,7 @@ const Footer = () => {
 
                 <div className="box">
                     <h3>locations</h3>
-                    <a href="#">india</a>
+                    <a href="#">Pakistan</a>
                     <a href="#">japan</a>
                     <a href="#">russia</a>
                     <a href="#">USA</a>
@@ -19,20 +19,20 @@ const Footer = () => {
                 <div className="box">
                     <h3>quick links</h3>
                     <a href="#">home</a>
-                    <a href="#">dishes</a>
-                    <a href="#">about</a>
-                    <a href="#">menu</a>
-                    <a href="#">reivew</a>
+                    <a href="#popular">popular</a>
+                    <a href="#allRestaurants">all restaurants</a>
+                    <a href="#about">about</a>
+                    <a href="#review">reivew</a>
                     <a href="#">order</a>
                 </div>
 
                 <div className="box">
                     <h3>contact info</h3>
-                    <a href="#">+123-456-7890</a>
-                    <a href="#">+111-222-3333</a>
-                    <a href="#">shaikhanas@gmail.com</a>
-                    <a href="#">anasbhai@gmail.com</a>
-                    <a href="#">mumbai, india - 400104</a>
+                    <a href="#">+92-222-195588</a>
+                    <a href="#">+92-162-257121</a>
+                    <a href="#">miladrmemon@gmail.com</a>
+                    <a href="#">miladrazadeveloper@gmail.com</a>
+                    <a href="#">karachi, pakistan - 570010</a>
                 </div>
 
                 <div className="box">
@@ -45,7 +45,7 @@ const Footer = () => {
 
             </div>
 
-            <div className="credit"> copyright @ 2021 by <span>MR. SOLUTIONS</span> </div>
+            <div className="credit"> copyright @ 2022 by <span>MR. SOLUTIONS</span> </div>
 
         </section>
     )

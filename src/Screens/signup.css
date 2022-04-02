@@ -1,8 +1,8 @@
-.order{
+.signup{
     margin-top: 100px;
 }
 
-.order form{
+.signup .form{
     max-width:90rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
@@ -12,25 +12,47 @@
     margin:0 auto;
 }
 
-.order form .inputBox{
+.signup .form .inputBox{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.order form .inputBox .input{
+.signup .form .inputBox .input,
+.signup .form .inputBox .roleInput{
     width:49%;
 }
 
-.order form .inputBox .input span{
+.signup .form .inputBox .input span,
+.signup .form .inputBox .roleInput .roleLabel,
+.signup .form .inputBox .uplodeInput .uplodeLabel
+{
     display:block;
     padding:.5rem 0;
     font-size: 1.5rem;
     color:var(--light-color);
 }
 
-.order form .inputBox .input input,
-.order form .inputBox .input textarea{
+.ant-radio-group{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.ant-radio-wrapper{
+    margin-right: 50px;
+}
+
+.ant-radio-wrapper span{
+    font-size: 1.5rem;
+    /* margin-right: 10px; */
+}
+
+.ant-form-item-label label{
+    display: none !important;
+}
+
+.signup .form .inputBox .uplodeInput .ant-row{
     background:#eee;
     border-radius: .5rem;
     padding:1rem;
@@ -41,16 +63,67 @@
     width:100%;
 }
 
-.order form .inputBox .input input:focus,
-.order form .inputBox .input textarea:focus{
+.signup .form .inputBox .input input,
+.signup .form .inputBox .input textarea{
+    background:#eee;
+    border-radius: .5rem;
+    padding:1rem;
+    font-size: 1.6rem;
+    color:var(--black);
+    text-transform: none;
+    margin-bottom: 1rem;
+    width:100%;
+}
+
+.signup .form .inputBox .input input:focus,
+.signup .form .inputBox .input textarea:focus{
     border:.1rem solid var(--green);
 }
 
-.order form .inputBox .input textarea{
+.signup .form .inputBox .input textarea{
     height:20rem;
     resize: none;
 }
 
-.order form .btn{
+.signup .form .btn{
     margin-top: 0;
+}
+
+.signup-btn{
+    margin-top: 20px !important;
+}
+
+.ant-btn-default{
+    margin-top: 1rem !important;
+    display: inline-block !important;
+    font-size: 1.4rem !important;
+    color:#fff !important;
+    background: var(--black) !important;
+    border-radius: .5rem !important;
+    cursor: pointer !important;
+    padding:.6rem 1rem !important;
+}
+
+.ant-btn-default:hover{
+    background: var(--green) !important;
+    letter-spacing: .1rem !important;
+}
+
+.errorBox{
+    text-align: center;
+    color:var(--green);
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    max-width:90rem;
+    margin:0 auto;
+}
+
+.signupHeading{
+    padding-bottom: 0 !important;
+}
+
+.input span req,
+.roleInput span req,
+.uplodeInput span req{
+    color: red !important;
 }

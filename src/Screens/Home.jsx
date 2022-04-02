@@ -34,10 +34,10 @@ const Home = () => {
                         <Slider />
                     </div>
                 </section>
-                <section className="dishes" id="dishes">
+                <section className="dishes" id="popular">
 
-                    <h3 className="sub-heading"> our dishes </h3>
-                    <h1 className="heading"> popular dishes </h1>
+                    <h3 className="sub-heading"> our restaurants </h3>
+                    <h1 className="heading"> popular restaurants </h1>
 
                     <div className="box-container">
 
@@ -179,10 +179,10 @@ const Home = () => {
 
                 {/* menu section start */}
 
-                <section className="menu" id="menu">
+                <section className="menu" id="allRestaurants">
 
-                    <h3 className="sub-heading"> our menu </h3>
-                    <h1 className="heading"> today's speciality </h1>
+                    <h3 className="sub-heading"> our restaurants </h3>
+                    <h1 className="heading"> all restaurants </h1>
 
                     <div className="box-container">
 

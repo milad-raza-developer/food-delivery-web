@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import "swiper/css/bundle";
+import 'antd/dist/antd.css';
 
 ReactDOM.render(
   <BrowserRouter>

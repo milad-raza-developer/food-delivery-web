@@ -59,7 +59,7 @@ const Slider = () => {
                                     <span>our special dish</span>
                                     <h3>hot pizza</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
-                                    <a href="#" className="btn">order now</a>
+                                    <a href="#allRestaurants" className="btn">order now</a>
                                 </div>
                                 <div className="image">
                                     <img src={Slider3} alt="slider image" />
